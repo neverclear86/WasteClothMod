@@ -19,13 +19,13 @@ public class ItemWasteCloth extends Item
 	{
 		super();
 		this.setCreativeTab(WasteClothModCore.tabWasteCloth)		//クリエタブに追加
-			.setUnlocalizedName("WasteCloth")		//システム名登録
-			.setTextureName("WasteClothMod:waste_cloth")		//テクスチャ登録
-			.setHasSubtypes(true)		//ダメージ値を使う
-			.setMaxDamage(15)		//耐久値設定
-			.setContainerItem(Items.bucket)		//作成時返却アイテム指定
-			.setNoRepair()		//金床使えないよ
-			.setMaxStackSize(1);		//スタックできる数
+			.setUnlocalizedName("WasteCloth")						//システム名登録
+			.setTextureName("WasteClothMod:waste_cloth")			//テクスチャ登録
+			.setHasSubtypes(true)									//ダメージ値を使う
+			.setMaxDamage(15)										//耐久値設定
+			.setContainerItem(Items.bucket)							//作成時返却アイテム指定
+			.setNoRepair()											//金床使えないよ
+			.setMaxStackSize(1);									//スタックできる数
 
 
 	}
