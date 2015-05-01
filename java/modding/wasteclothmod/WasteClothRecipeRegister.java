@@ -13,10 +13,10 @@ public class WasteClothRecipeRegister
 
 	static void addItemRecipe(){
 
-		GameRegistry.addShapelessRecipe(											/*型なしレシピの追加				*/
-				new ItemStack(WasteClothModCore.itemWasteCloth),					/*出来るアイテム					*/
-				new ItemStack(Blocks.carpet, 1, OreDictionary.WILDCARD_VALUE),		/*カーペット1つ　メタデータは問わない	*/
-				Items.water_bucket													/*水バケツ1つ					*/
+		GameRegistry.addShapelessRecipe(                                            //型なしレシピの追加
+				new ItemStack(WasteClothModCore.itemWasteCloth),                    //出来るアイテム
+				new ItemStack(Blocks.carpet, 1, OreDictionary.WILDCARD_VALUE),      //カーペット1つ　メタデータは問わない
+				Items.water_bucket                                                  //水バケツ1つ
 		);
 	}
 }
